@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal del Elqui</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700,100' rel='stylesheet' type='text/css'>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Facebook -->
+    <meta property="og:title" content="Portal del Elqui Radio Online" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://laserenaradio.sytes.net" />
+    <meta property="og:image" content="/images/magafb.jpg" />
+    <meta property="og:site_name" content="http://laserenaradio.sytes.net Radio Online" />
+    <meta property="og:description" content="Versión beta de la radio que faltaba!, ayudanos a probar." /> 
+    
+
+  </head>
+  <body>
+  <div class="row">
+    <div class="large-10 columns large-centered">
+      <h1>Portal del Elqui</h1>
+      <p>Estamos en marcha <b>blanca</b>, ayudanos a probar ;)</p>
+      <p id="np"><i class='fa fa-music'></i> <span id="nowplaying"></span> </p>
+    </div>
+    
+    <div class="large-2 columns large-centered small-5 small-centered">
+            <audio id="str" src="http://laserenaradio.sytes.net:8000//stream.mp3" preload="none"></audio>
+            <span class="play" id="btn"></span>
+    </div>
+
+    <div class="large-10 columns large-centered">
+      <ul class="played">
+        <li></li>
+      </ul>
+    </div>
+  </div>
+      <div class="foot">
+        Atajos de Teclado: [espacio] Play/Pause <i class="fa fa-long-arrow-up"></i> Subir Volumen | <i class="fa fa-long-arrow-down"></i> Bajar Volumen
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58707904-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
